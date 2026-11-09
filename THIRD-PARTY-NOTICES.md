@@ -15,7 +15,6 @@
 | User dictionaries, Anki decks/config/addons | No grants established | Excluded; install separately |
 | Qt6 MSYS2 | GPL/LGPL and component-specific licenses in package license directories | Binary compatibility/source obligations require review; no public binary approved |
 | mpv 0.41.0-8 | MSYS2 metadata GPL-2.0-or-later | Actual linked FFmpeg license matters |
-| FFmpeg 9.0.2-1 | Installed package metadata GPL-3.0-or-later | Known GPLv2-only/GPLv3 conflict accepted by the owner as a project risk; compatibility is not confirmed, and technical preparation continues |
 | libass 0.17.5 | MSYS2 metadata ISC | Preserve license in permitted bundle |
 | libarchive 3.8.10 | MSYS2 metadata BSD-2-Clause | Preserve license |
 | libzip 1.12 | MSYS2 metadata BSD-3-Clause | Preserve license |
