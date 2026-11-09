@@ -6,7 +6,7 @@
 
 ## Интерфейс
 
-![Поиск слова punish в английских субтитрах и результаты словарей](docs/images/memento-subtitle-punish.png)
+![Поиск слова whichever в английских субтитрах и результаты словарей](docs/images/memento-subtitle-whichever.png)
 
 ![Поиск выражения work hard и формы английского глагола](docs/images/memento-subtitle-work-hard.png)
 
