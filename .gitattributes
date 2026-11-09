@@ -1,0 +1,7 @@
+# Specify MeCab dictionary files are binary
+*.bin binary
+*.def binary
+*.dic binary
+
+# Preserve the byte-for-byte audio index embedded in the release executable.
+res/audio/lingvo_audio_manifest.tsv -text
