@@ -1,11 +1,9 @@
 # Candidate changes
 
-- Always initialize the Lingvo UK and US audio source settings with the app-relative `@app/audio/SoundEn.lsa` path, even when the user-owned archive is not present during installation or first launch; migrate existing settings once without replacing the user's other sources.
 - Restore per-dictionary result identity with dic_id while retaining SQLite v5 migration and NOCASE indexes.
 - Restore UK/US flag buttons and Anki flag media with newly drawn flag SVGs; restore the assistant icon from the preserved updates source.
 - Restore Russian language selection and translation compilation.
 - Retain staging's English final-e fallback fix and Sentence Assistant prompt tests.
-- Restore the Lingvo audio index embedded in the earlier executable; SoundEn.lsa remains separate and user-provided.
 - Add regression coverage for database migration, dictionary separation, case variants, missing words and disabled dictionaries.
 - Wait up to five seconds for transient SQLite database locks and include database path/SQLite diagnostics when database open or preparation fails.
 - Generate a stable clean-profile launcher for each staged Windows runtime so test dictionaries persist between runs while staying separate from the user's normal profile.
